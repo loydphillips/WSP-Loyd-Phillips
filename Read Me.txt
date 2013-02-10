@@ -2,4 +2,7 @@ GitHub Repository: https://github.com/loydphillips/WSP-Loyd-Phillips
 
 GitHub Activities Portal: http://loydphillips.github.com/WSP-Loyd-Phillips/
 
+	Project Analysis:
+		http://loydphillips.github.com/WSP-Loyd-Phillips/activities/project_analysis/index.html
+
 GitHub Project Link: http://loydphillips.github.com/WSP-Loyd-Phillips/project/index.html
