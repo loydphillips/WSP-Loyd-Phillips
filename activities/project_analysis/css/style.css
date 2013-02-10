@@ -116,7 +116,7 @@ p.introduction:first-letter {
 
 /*------ Columns Under Sections -------------*/
 
-#columns{
+.columns{
 	-ms-column-count: 3;
 	-moz-column-count: 3;
 	-web-column-count: 3;
