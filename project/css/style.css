@@ -2,6 +2,14 @@
 
 @import "inman_css_reset.css";
 
+
+/*------- Site Wrapper Style -------*/
+
+#site_wrapper{
+  background-color: #bc3a00;
+  padding: 10px 5px 10px 5px;
+}
+
 /*------- Begin Body Styling -------*/
 
 body{
