@@ -6,6 +6,7 @@
 /*------- Site Wrapper Style -------*/
 
 #site_wrapper{
+  background-color: #fff;
   max-width: 100%;
   padding: 0.9895833333%;
 }
