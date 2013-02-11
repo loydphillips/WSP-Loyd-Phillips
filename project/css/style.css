@@ -20,7 +20,7 @@ border-radius: 5px;
 /*------- Begin Font Styleing -------*/
 
 h1{
-  font: 2.250em/2.625;
+  font: 2.250em/2.625 Helveitcs, Verdana, Tahoma, "Trebuchet MS", "DejuVu Sans", "Bitstream Vera Sans", sans-serif;
 }
 
 h2{
