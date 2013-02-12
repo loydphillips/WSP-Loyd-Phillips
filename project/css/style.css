@@ -7,6 +7,7 @@
 #main_content_wrapper{
   max-width: 100%;
   padding: 0.9791231733%;
+  padding: 0.9895615866%;
 }
 
 /*------- Begin Body Styling -------*/
@@ -20,6 +21,14 @@ margin-top: 25px;
 margin-bottom: 25px;
 border: 1px solid #000;
 border-radius: 5px;
+	font: 100%/1.250 Helveitcs, Verdana, Tahoma, "Trebuchet MS", "DejuVu Sans", "Bitstream Vera Sans", sans-serif;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	border: 1px solid #000;
+	border-radius: 5px;
 }
 
 /*------- Begin Font Styleing -------*/
@@ -54,4 +63,5 @@ p{
 
 a{
   
+}
 }
