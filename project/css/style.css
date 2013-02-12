@@ -6,8 +6,24 @@
 
 #main_content_wrapper{
   max-width: 100%;
-  padding: 0.9895615866%;
 }
+
+/*------- Header Style -------*/
+
+#header_wrapper{
+  width: 100%;
+  background-color: #000;
+  margin: o auto;
+  max-height: 149px;
+  padding: 0;
+  overflow: hidden;
+}
+
+#header_wrapper img{
+  float: left;
+  padding-right: 30px;
+}
+
 
 /*------- Begin Body Styling -------*/
 
