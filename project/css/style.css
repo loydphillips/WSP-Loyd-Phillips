@@ -1,20 +1,11 @@
 /*------- Global Reset ------ */
 
-<<<<<<< HEAD
 @import "inman_css_reset.css";
 
 
 /*------- Site Wrapper Style -------*/
 
-#site_wrapper{
-  background: #ffb76b; /* Old browsers */
-  background: -moz-linear-gradient(top,  #ffb76b 0%, #ffa73d 28%, #ff7c00 58%, #ff7f04 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffb76b), color-stop(28%,#ffa73d), color-stop(58%,#ff7c00), color-stop(100%,#ff7f04)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top,  #ffb76b 0%,#ffa73d 28%,#ff7c00 58%,#ff7f04 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top,  #ffb76b 0%,#ffa73d 28%,#ff7c00 58%,#ff7f04 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top,  #ffb76b 0%,#ffa73d 28%,#ff7c00 58%,#ff7f04 100%); /* IE10+ */
-  background: linear-gradient(to bottom,  #ffb76b 0%,#ffa73d 28%,#ff7c00 58%,#ff7f04 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb76b', endColorstr='#ff7f04',GradientType=0 ); /* IE6-9 */
+#main_content_wrapper{
   max-width: 100%;
   padding: 0.9895833333%;
 }
@@ -31,8 +22,6 @@ margin-bottom: 25px;
 border: 1px solid #000;
 border-radius: 5px;
 }
-
-/*------- End Body Styling -------*/
 
 /*------- Begin Font Styleing -------*/
 
@@ -67,11 +56,3 @@ p{
 a{
   
 }
-
-
-/*------- End Font Styling -------*/
-=======
-@import "inmann_css_reset.css";
-
-/*------ Body Style -------------------------------------*/
->>>>>>> Updated content audit. Worked on CSS
