@@ -1,15 +1,14 @@
-GitHub Repository: https://github.com/loydphillips/WSP-Loyd-Phillips
+GitHub Repository:
+	https://github.com/loydphillips/WSP-Loyd-Phillips
 
-GitHub Activities Portal: http://loydphillips.github.com/WSP-Loyd-Phillips/
+GitHub Activities Portal:
+	http://loydphillips.github.com/WSP-Loyd-Phillips/
 
-	Project Analysis:
-		http://loydphillips.github.com/WSP-Loyd-Phillips/activities/project_analysis/index.html
+Project Analysis:
+	http://loydphillips.github.com/WSP-Loyd-Phillips/activities/project_analysis/index.html
 		
-<<<<<<< HEAD
-		Content Audit pdf:
-=======
-	Content Analysis:
->>>>>>> Updated content audit. Worked on CSS
-		http://loydphillips.github.com/WSP-Loyd-Phillips/activities/Phillips_Loyd-Content_Audit.pdf
+Content Audit pdf:
+	http://loydphillips.github.com/WSP-Loyd-Phillips/activities/Phillips_Loyd-Content_Audit.pdf
 
-GitHub Project Link: http://loydphillips.github.com/WSP-Loyd-Phillips/project/index.html
+GitHub Project Link:
+	http://loydphillips.github.com/WSP-Loyd-Phillips/project/index.html
