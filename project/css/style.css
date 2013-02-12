@@ -1,5 +1,6 @@
 /*------- Global Reset ------ */
 
+<<<<<<< HEAD
 @import "inman_css_reset.css";
 
 
@@ -69,3 +70,8 @@ a{
 
 
 /*------- End Font Styling -------*/
+=======
+@import "inmann_css_reset.css";
+
+/*------ Body Style -------------------------------------*/
+>>>>>>> Updated content audit. Worked on CSS
