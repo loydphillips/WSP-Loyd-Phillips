@@ -17,5 +17,6 @@ Style Tiles:
 	http://loydphillips.github.com/WSP-Loyd-Phillips/activities/style_templates/index.html
 
 Wireframes:
+	http://loydphillips.github.com/WSP-Loyd-Phillips/activities/wire_frames/pdf_submission/phillips_loyd-wireframes.pdf
 
 
