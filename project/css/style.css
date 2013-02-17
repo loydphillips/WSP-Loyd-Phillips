@@ -28,8 +28,8 @@
 /*------- Begin Body Styling -------*/
 
 body{
-	font: 100%/1.250 Helveitcs, Verdana, Tahoma, "Trebuchet MS", "DejuVu Sans", "Bitstream Vera Sans", sans-serif;
-	max-width: 960px;
+	font: 100%/1.250 Helveitca, Verdana, Tahoma, "Trebuchet MS", "DejuVu Sans", "Bitstream Vera Sans", sans-serif;
+	max-width: 1020px;
 	margin: 0 auto;
 	padding: 0;
 	margin-top: 25px;
@@ -62,8 +62,4 @@ h5{
 
 h6{
   font: 1.125em Helveitcs, Verdana, Tahoma, "Trebuchet MS", "DejuVu Sans", "Bitstream Vera Sans", sans-serif;
-}
-
-p{
-  font: 0.875em Helveitcs, Verdana, Tahoma, "Trebuchet MS", "DejuVu Sans", "Bitstream Vera Sans", sans-serif;
 }
