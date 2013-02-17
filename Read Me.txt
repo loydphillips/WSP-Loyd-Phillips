@@ -12,3 +12,10 @@ Content Audit pdf:
 
 GitHub Project Link:
 	http://loydphillips.github.com/WSP-Loyd-Phillips/project/index.html
+
+Style Tiles:
+	http://loydphillips.github.com/WSP-Loyd-Phillips/activities/style_templates/index.html
+
+Wireframes:
+
+
