@@ -136,6 +136,20 @@ a:active {color:#550202;}    /* selected link */
   clear: right;
 }
 
+.body_rt_top_image{
+  width: 450px;
+  height: 200px;
+  float: right;
+  clear: right;
+}
+
+.body_rt_bottom_image{
+  width: 450px;
+  height: 200px;
+  float: left;
+  clear: both;
+}
+
 .columns{
   -ms-column-count: 2;
   -moz-column-count: 2;
