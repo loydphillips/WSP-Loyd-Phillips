@@ -2,6 +2,14 @@
 
 @import "inman_css_reset.css";
 
+/*-------      SITE DESIGN_HEADER     */
+
+.header{
+  background-image: "http://loydphillips.github.com/project/images/hgx_header";
+  width: 100%;
+  height: 175px;
+}
+
 /*--------  MEDIA QUIRIES --------*/
 
 
