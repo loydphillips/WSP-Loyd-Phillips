@@ -5,9 +5,9 @@
 /*-------      SITE DESIGN_HEADER     */
 
 .header{
-  background-image: "http://loydphillips.github.com/project/images/hgx_header";
   width: 100%;
   height: 175px;
+  border-image-source: "http://loydphillips.github.com/activities/wire_frames/psd-files/project_assets_slices/header.jpg";
 }
 
 /*--------  MEDIA QUIRIES --------*/
