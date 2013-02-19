@@ -2,88 +2,245 @@
 
 @import "inman_css_reset.css";
 
-/*------- Site Wrapper Style -------*/
+/*--------  MEDIA QUIRIES --------*/
 
-#main_content_wrapper{
-  max-width: 100%;
+
+body {
+  background-color: #fff;
+  font: 100% Arial, Tahoma, Verdana, "Arial Narrow", "Trebuchet MS", , sans-serif;
+  width: 960px;
+  margin: 0 auto;
+  padding: 0;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border: 1px solid #888888;
+  border-radius: 5px;
 }
 
-/*------- Header Style -------*/
 
-header{
+
+/*-------           FONT STACKS AND TREATMENTS           -------*/
+
+h1{
+  font: 2.875em/3 "Arial Black", Tahoma, "Trebuchet MS", sans-serif;    /* 46px / 48px */
+}
+
+h2{
+  font: 2.5em/2.625 Futura, "Arial Narrow", Tahoma, Verdana, sans-serif;     /* 40px / 42px */
+}
+
+h3{
+  font: 2.125em/2.25 Haettenschweiler, Futura, Arial, Tahome, Verdana, Sans-serif;       /* 34px / 36px */
+}
+
+h4{
+  font: 1.75em/1.875 "Arial Black", Tahoma, "Trebuchet MS", sans-serif;    /* 28px / 30px */
+}
+
+h5{
+  font: bold 1.375em/1.50 "Century Gothic", Futura, Tahoma, sans-serif;          /* 22px / 24 px */
+}
+
+h6{
+  font: bold 1.125em/1.25 "Arial Black", "Arial Narrow", Tahoma, "Trebuchet MS", sans-serif;        /* 18px / 20px */
+}
+
+p{
+  font: .875em/1.25 Arial, Tahoma, "Trebuchet MS", "DejuVu Sans", "Bitstream Vera Sans", sans-serif;         /* 14px / 20px*/
+}
+
+/*------      UNIVERSAL LINKS      ------
+
+
+
+/*-------     Header Style  
+
+header {
   color: #fff;
-}
-
-#header_wrapper{
   max-width: 100%;
   background-color: #666;
   height: 150px;
   border-bottom: 1px solid #000;
-  padding: 10px 10px;
+  padding: 00.9895833333%;
   margin-bottom: 30px;
+  overflow: hidden;
 }
 
-header img,
-#logo{
-  width: 440px;
-  height: 130px;
+.header_logo{
+  background-color: #555;
+  max-width: 46.875%;
+  height: 86.66666667%;
+  margin-right: 002.08333333%;
+  padding: 0.9773949645%;
   float: left;
   clear: left;
 }
 
-header h5{
-  width: 440px;
-  height: 80px;
+.header_text{
+  background-color: #555;
+  max-width: 46.875%;
+  height: 86.66666667%;
+  margin: 0 auto;
+  padding: 0 0;
+  float: left;
+  clear: right;
+}
+
+#small_caps_and{
+
+}
+
+#a_division_of{
+
+}
+
+#digial_graphics_text{
+
+}
+
+.tagline_image{
+
+}
+
+/*-------       NAVIGATION WRAPPER      ---------*/
+
+.navigation_wrapper{
+
+}
+
+#navigation{
+
+}
+
+/*-------       CTA BANNER UPPER AREA      ---------*/
+
+#cta_banner{
+
+}
+
+/*-------       BODY BOXES LEFT AND RIGHT      ---------*/
+
+.body_box_wrapper{
+
+}
+
+#body_boxes{
+
+}
+
+/*-------       BODY BOXES LEFT      ---------*/
+
+#body_box_left{
+
+}
+
+/*-------       BODY BOXES RIGHT      ---------*/
+
+
+#body_box_right{
+
+}
+
+#featured_groupings{
+
+}
+
+/*---------      LOWER BANNER OFF ROAD SPORTS VEHICLES    -------*/
+
+#vehicles_lower_banner{
+
+}
+
+/*---------      LOWER BODY COMPONENTS    -------*/
+
+#lower_body_wrapper{
+
+}
+
+#lower_body_image_left{
+
+}
+
+/*---------      FOOTER STYLING         --------------*/
+
+#footer{
+
+}
+
+#company_address{
+
+}
+
+#a_division_of{
+
+}
+
+#footer_images{
+
+}
+
+.privacy_statement{
+
+}
+
+/*---------      BOTTOM LINE STYLING    -------*/
+
+#bottom_line{
+
+}
+
+#secondary_logo{
+
+}
+
+
+
+/*
+
+
+#header_text, h1{
+  font-size: 89.58333333%;
+  line-height: .25%;
+  /*letter-spacing: .0015em;
+}
+
+#digital{
+  float: right;
+}
+
+#and_lower_case{
+  font: bold 1.5em/1.65 "Arial Black", Futura, "Arial Narrow", Arial, Helvetica, sans-serif;
+  padding-top: 4.4%;
+  padding-left: 2.17391304%;
+  clear: left;
+}
+
+#a_division{
+  font-size: 11px; 
+  font-family: Futura, "Arial Narrow" Arial;
+  letter-spacing: .005em;
+  padding-top: 30px;
+  padding-right: 3px;
   float: right;
 }
 
 header img,
 #tagline{
-  width: 440px;
-  height: 50px;
-  float: right;
-  clear: both;
+  width: 46.875%;
+  height: 40px;
+  clear: left;
 }
-
-#a_division_of{
-  font-size: 18px;
-} 
-
-/*------- Navigation Styling -------*/
 
 nav{
   padding: 0px 10px;
   margin-bottom: 30px;
 }
 
-/*------- Begin Body Styling -------*/
-
-body{
-	font: .875em/1 Arial, Tahoma, "Trebuchet MS", "DejuVu Sans", "Bitstream Vera Sans", sans-serif;
-	max-width: 960px;
-	margin: 0 auto;
-	padding: 0;
-	margin-top: 25px;
-	margin-bottom: 25px;
-	border: 1px solid #000;
-	border-radius: 5px;
+#body_wrapper{
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
 }
-
-/*------- Begin Font Styleing -------*/
-
-h1{
-  font: 2em "Arial Black", Tahoma, "Trebuchet MS", "DejuVu Sans", "Bitstream Vera Sans", sans-serif;
-}
-
-h5{
-  font: bold 1.325em/1.675 "Arial Black", Futura, Tahoma, "Trebuchet MS", "DejuVu Sans", "Bitstream Vera Sans", sans-serif;
-}
-
-h6{
-  font: 1.125em Futura, "Arial Narrow", Tahoma, "Trebuchet MS", "DejuVu Sans", "Bitstream Vera Sans", sans-serif;
-}
-
-/*--------  Body Content       ----------*/
 
 #banner_top{
   max-width: 100%;
@@ -95,46 +252,81 @@ h6{
   text-align: center;
 }
 
-a:link {text-decoration: underline; color:#bc3a00;}      /* unvisited link */
-a:visited {color:#800000;}   /* visited link */
-a:hover {font-weight: bold; color:#bc3a00;}    /* mouse over link */
-a:active {color:#550202;}    /* selected link */
-
-
-#banner_bottom2{
+#banner_bottom{
   max-width: 100%;
-  height: 40px;
+  margin-bottom: 30px;
   border-top: 1px solid #000;
   border-bottom: 1px solid #000; 
   background-color: #666;
-  padding: 0px 10px;
-  margin-bottom: 30px;
+  padding: 15px 15px;
   color: #fff;
+  text-align: center;
+  clear: both;
 }
 
-#body_wrapper{
-  width: 100%;
-  padding-left: 10px;
-  padding-right: 10px;
-}
+-------*/
 
+/*---- #banner_bottom2{
+  max-width: 100%;
+  height: 30px;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  background-color: #666;
+  padding: 15px 15px;
+  color: #fff;
+  text-align: center;
+  clear: both;
+} ------*/
+
+/*------- INDEX
 .body_box_left{
   background-color: #999999;
   max-width: 440px;
   padding: 20px 10px;
   margin-right: 20px;
+  margin-bottom: 30px;
   float: left;
   clear: left;
 }
 
 .body_box_right{
   background-color: #999999;
-  width: 440px;
-  padding: 20px 10px;
+  width: 450px;
+  /*-- padding: 20px 10px; 
   margin-bottom: 30px;
+  margin-right: 10px;
   float: left;
   clear: right;
 }
+
+.body_box_right h5{
+  background-color: #e8e8e8;
+  width: 200px;
+  height: 100px;
+  padding: 10px 0px;
+  margin-bottom: 30px;
+  float: left;
+  clear: left;
+}
+
+#custom_graphics{
+  background-color: #333;
+  width: 240px;
+  height: 75px;
+  margin-bottom: 10px; 
+  margin-left: 10px;
+  float: left;
+}
+
+.body_box_right a{
+  width: 240px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  float: left;
+  clear: right;
+}
+
+/*--------- GRAPHICS / WRAPS 
 
 .body_rt_top_image{
   width: 450px;
@@ -150,6 +342,14 @@ a:active {color:#550202;}    /* selected link */
   clear: both;
 }
 
+/*---- CONTACT PAGE 
+
+.body_box_right_contact{
+  background-color: #888888;
+  margin-left: 10px;
+  float: left;
+}
+
 .columns{
   -ms-column-count: 2;
   -moz-column-count: 2;
@@ -159,17 +359,7 @@ a:active {color:#550202;}    /* selected link */
   column-count: 2;  
 }
 
-#banner_bottom{
-  max-width: 100%;
-  margin-bottom: 30px;
-  border-top: 1px solid #000;
-  border-bottom: 1px solid #000; 
-  background-color: #666;
-  padding: 15px 15px;
-  color: #fff;
-  text-align: center;
-  clear: both;
-}
+/*----- LOWER BODY STYLE 
 
 #lower_body_content{
   width: 100%;
@@ -182,6 +372,7 @@ a:active {color:#550202;}    /* selected link */
   height: 215px;
   background-color: #777;
   margin-right: 20px;
+  margin-bottom: 30px;
   float: left;
   clear: left;
 }
@@ -197,6 +388,7 @@ a:active {color:#550202;}    /* selected link */
   float: left;
 }
 
+/*-------- FOOTER STYLE   
 
 footer{
   max-width: 100%;
@@ -233,6 +425,8 @@ footer p{
   font-size: 12px;
 }
 
+/*-------- CONTACT PAGE FOOTER 
+
 #contact_footer{
   max-width: 100%;
   margin-top: 30px;
@@ -242,8 +436,10 @@ footer p{
   padding: 10px;
   color: #fff;
   font-size: 12px;
-  clear: both;
+  clear: left;
 }
+
+/*-------- SUB FOOTER STYLE 
 
 #sub_footer{
   max-width: 100%;
@@ -262,13 +458,7 @@ footer p{
 #sub_footer h5{
   font-size: 14px;
   float: left;
-}
+} -------*/ 
 
-
-
-
-
-
-
-
+/*--------   MEDIA QUERIES      -------------------*/
 
