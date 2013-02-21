@@ -20,16 +20,16 @@ box-sizing: border-box; /* Opera/IE 8+ */
 /*--------  BODY STYLING --------*/
 
 body {
-  background: #fff;
+  background: #000;
   font: 100% Arial, Tahoma, Verdana, "Arial Narrow", "Trebuchet MS", sans-serif;
   width: 960px;
   margin: 0 auto;
   padding: 0;
-  margin-top: 25px;
+  /*margin-top: 25px;*/
   margin-bottom: 25px;
 }
 
-body {background:#000 url('file:///Users/loydphillips/Desktop/WSP-Loyd-Phillips/project/images/hdr.jpg') no-repeat center top;}
+body header {background:#000 url('file:///Users/loydphillips/Desktop/WSP-Loyd-Phillips/project/images/hdr.jpg') no-repeat center top;}
 
 
 /*-------           FONT STACKS AND TREATMENTS           -------*/
@@ -66,7 +66,7 @@ p + p { margin-top: 0.5em; }
 
 /*------      UNIVERSAL LINKS      ------*/
 
-/*.nav a:link {color:#f98000;}      unvisited link */
+.nav a:link {color:#f98000;}      unvisited link */
 /*.nav a:visited {color:#cccccc;}  /* visited link */
 /*.nav a:hover {color:#FF00FF;}  /* mouse over link */
 /*.nav a:active {color:#0000FF;}  /* selected link */ 
@@ -83,9 +83,9 @@ p + p { margin-top: 0.5em; }
 
 header{
   width: 100%;
-  height: 200px;
+  height: 220px;
   color: #fff;
-  margin-bottom: 30px; /*35px*/
+  margin-bottom: 35px; /*35px*/
   padding: 0px 0px;
   /*overflow: hidden;*/
   border-bottom: 1px solid #000;
@@ -102,7 +102,7 @@ header a{
   width: 44.791666667%; /*470px*/
   background-size: 460px 190px;
   /*margin-right: 4.255319149%; /*20px*/
-  padding-top: 17px; /*20px*/
+  padding-top: 43px; /*20px*/
   padding-left: 20px;
   float: left;
   clear: right;
@@ -112,9 +112,7 @@ header a{
   width: 48.958333333%; /*470px*/
   float: right;
   clear: right;
-  text-shadow: 0px -4px -3px rgba(0,0,0,0.4),
-              0px -8px -13px rgba(0,0,0,0.1),
-              0px -18px -23px rgba(0,0,0,0.1);
+  padding-top: 27px;
 }
 
 #vinyl{
@@ -205,8 +203,8 @@ header .a_division_of{
   list-style: none;
   width: 100%;
   margin: 0 auto;
-  padding-right: 9px;
-  margin-left: 8px;
+  padding-right: 5px;
+  margin-left:3px;
 }
 
 .nav li {
@@ -217,24 +215,66 @@ header .a_division_of{
 }
 
 .nav a {
+  background: #d64100;
+  margin: 0px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 8px 5px 10px 5px;
+  font: bold 1em Futura, Nosifer, "Arial Black", sans-serif;
+  text-shadow: -2px -2px 1px #000000;
+  filter: dropshadow(color=#000000, offx=-2, offy=-2); 
+  line-height: 100%;
+  color: #fff;
+  font-variant: small-caps;
+  background: -moz-linear-gradient(
+    top,
+    #e3750e 0%,
+    #b65008 43%,
+    #962e05 59%,
+    #851d03 62%,
+    #613d00);
+  background: -webkit-gradient(
+    linear, left top, left bottom, 
+    from(#e3750e),
+    color-stop(0.43, #b65008),
+    color-stop(0.59, #962e05),
+    color-stop(0.62, #851d03),
+    to(#613d00));
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+  -moz-box-shadow:
+    0px 1px 3px rgba(000,000,000,0.5),
+    inset 5px 5px 7px rgba(224,134,0,0.5);
+  -webkit-box-shadow:
+    0px 1px 3px rgba(000,000,000,0.5),
+    inset 5px 5px 7px rgba(224,134,0,0.5);
+  box-shadow:
+    0px 1px 3px rgba(000,000,000,0.5),
+    inset 5px 5px 7px rgba(224,134,0,0.5);
+  text-shadow:
+    0px -1px 3px rgba(255,255,255,0.8),
+    0px 1px 0px rgba(255,255,255,0.3);
+}
+
+.nav a{
+  text-shadow: -1px 2px 1px #000000;
+  filter: dropshadow(color=#000000, offx=-2, offy=2); 
+}
+
+.nav .hover a{
   background: #000;
   margin: 0px;
-  border: 1px solid #000;
+  border: 1px solid #fff;
   border-radius: 5px;
-  padding: 8px 10px 10px 10px;
-  font: 1.125em "Racing Sans One", Nosifer, "Arial Black", sans-serif;
+  padding: 8px 5px 10px 5px;
+  font: bold 1em Futura, Nosifer, "Arial Black", sans-serif;
+  line-height: 100%;
   color: #fff;
   font-variant: small-caps;
 }
 
-.nav a:hover{
-  background: #f80000;
-  margin: 0px;
-  padding: 5px 5px 10px 5px;
-  font: 1.25em "Racing Sans One", Nosifer, "Arial Black", sans-serif;
-  color: #fff;
-  font-variant: small-caps;
-}
 
 .nav .current a {
   background: #e8e8e8;
@@ -279,7 +319,7 @@ p span{
   width: 100%;
   border: 1px solid #fff;
   color: #fff;
-  border-radius: 3px;
+  border-radius: 4px;
   padding: 20px 0;
   margin-bottom: 30px;
   float: left;
@@ -422,6 +462,7 @@ p span{
   width: 100%;
   text-align: center;
   font: 1.95em "Passion One", Tahoma, "Trebuchet MS", sans-serif;
+  color: #666;
   line-height: 100%;
   margin-bottom: 30px;
   float: left;
@@ -442,7 +483,7 @@ p span{
   width: 100%;
   margin-bottom: 35px;
   border: 1px solid #fff;
-  border-radius: 3px;
+  border-radius: 4px;
   padding: 20px 0;
   float: left;
   clear: right;
@@ -507,7 +548,7 @@ p span{
 footer{
   width: 100%;
   border: 1px solid #fff;
-  border-radius: 3px;
+  border-radius: 4px;
   padding: 20px 10px;
   float: left;
   clear: right;
