@@ -17,18 +17,16 @@ box-sizing: border-box; /* Opera/IE 8+ */
 /*-------      SITE DESIGN_HEADER    -------*/
 
 
-/*--------  MEDIA QUIRIES --------*/
+/*--------  BODY STYLING --------*/
 
 body {
   background: #fff;
   font: 100% Arial, Tahoma, Verdana, "Arial Narrow", "Trebuchet MS", sans-serif;
   width: 960px;
   margin: 0 auto;
-  padding: 10px 0px;
+  padding: 0;
   margin-top: 25px;
   margin-bottom: 25px;
-  border: 1px solid #888888;
-  border-radius: 5px 5px;
 }
 
 /*body {background:#000 url('file:///Users/loydphillips/Desktop/WSP-Loyd-Phillips/project/images/hgx_header.jpg') no-repeat center top;}*/
@@ -57,12 +55,14 @@ h5{
 }
 
 h6{
-  font: bold 1.125em/1.25 "Arial Black", "Arial Narrow", Tahoma, "Trebuchet MS", sans-serif;        /* 16px / 18px */
+  font: bold 1.125em/1.25 "Arial Black", Tahoma, "Trebuchet MS", sans-serif;        /* 16px / 18px */
 }
 
 p{
-  font: .875em/1.25 Arial, Tahoma, "Trebuchet MS", "DejuVu Sans", "Bitstream Vera Sans", sans-serif;         /* 14px / 20px / */
+  font: .875em/1.25 Arial, Tahoma, "Trebuchet MS", sans-serif;         /* 14px / 20px / */
 }
+
+p + p { margin-top: 0.5em; }
 
 /*------      UNIVERSAL LINKS      ------*/
 
@@ -73,7 +73,7 @@ p{
 
 /*-------     Header Style  --------*/
 
-#main_header .clearfix:after { 
+#main_header .clearfix:after{ 
    content: "."; 
    visibility: hidden; 
    display: block; 
@@ -81,14 +81,14 @@ p{
    clear: both;
 }
 
-header {
+header{
   width: 100%;
-  height: 200px;
+  height: 180px;
   color: #000;
-  margin-bottom: 35px;
+  margin-bottom: 30px; /*35px*/
   padding: 0px 0px;
   /*overflow: hidden;*/
-  border-bottom: 1px dashed #000;
+  border-bottom: 1px solid #000;
   float: left;
   clear: right;
 }
@@ -99,61 +99,63 @@ header a{
 }
 
 #logo{
-  width: 470px;
+  width: 44.791666667%; /*470px*/
   background-size: 460px 190px;
-  margin-right: 20px;
-  padding-top: 20px;
+  margin-right: 4.255319149%; /*20px*/
+  padding-top: 20px; /*20px*/
   float: left;
   clear: right;
 }
 
 .header_text{
-  width: 470px;
-  padding-top: 13px;
-  float: left;
+  width: 48.958333333%; /*470px*/
+  float: right;
   clear: right;
 }
 
 #vinyl{
   display: inline-block;
-  width: 155px;
-  font: 2.75em/2.875 "Arial Black", Tahoma, "Trebuchet MS", sans-serif;
+  width: 28.723404255%; /*155px*/
+  font: 2.75em "Arial Black", Tahoma, "Trebuchet MS", sans-serif;
   line-height: 100%;
   letter-spacing: .005em;
-  margin-right: 10px;
+  margin-right: 6.451612903%; /*10px*/
+  padding-top: 13px; /*13px*/
   float: left;
   clear: right;
 }
 
 #small_caps_and{
   display: inline-block;
-  width: 75px;
-  font: bold 1.125em/1.25 "Arial Black", "Arial Narrow", Tahoma, "Trebuchet MS", sans-serif;        /* 16px / 18px */
+  width: 11.70212766%; /*75px*/
+  font: bold 1.125em "Arial Black", "Arial Narrow", Tahoma, "Trebuchet MS", sans-serif;        /* 16px / 18px */
   line-height: 100%;
-  font-size: 30px;
+  font-size: 1.875em; /*30px*/
   letter-spacing: .0015em;
   font-weight: bold;
-  padding-top: 13px;
-  margin-right: 10px;
+  padding-top: 26px; /*13px / 26*/
+  margin-right: 13.333333333%; /*10px*/
   float: left;
   clear: right;
 }
 
 header .a_division_of{
   display: inline-block;
-  width: 217px;
-  font: .875em/1.25 Arial, Tahoma, "Trebuchet MS", "DejuVu Sans", "Bitstream Vera Sans", sans-serif;         /* 14px / 20px / */
+  width: 39.789521849%; /*187px*/
+  font: .875em Arial, Tahoma, "Trebuchet MS", "DejuVu Sans", "Bitstream Vera Sans", sans-serif;         /* 14px / 20px / */
   line-height: 100%;
   text-align: right;
   font-weight: bold;
-  padding-top: 26px;
+  padding-top: 39px; /*26 / 39*/
+  padding-right: 3px;
   float: left;
   clear: right;
 }
 
 #graphics_text{
   display: block;
-  font: 2.75em/2.875 "Arial Black", Tahoma, "Trebuchet MS", sans-serif;    /* 44px / 46px / */ 
+  width: 100%; /*470px*/
+  font: 2.75em "Arial Black", Tahoma, "Trebuchet MS", sans-serif;    /* 44px / 46px / */ 
   letter-spacing: .0015em;
   line-height: 100%;
   text-align: left;
@@ -163,21 +165,15 @@ header .a_division_of{
 }
 
 .tagline_image{
-  width: 468px;
+  display: inline-block;
+  width: 48.958333333%; /*470px*/
   height: 60px;
-  border: 1px solid #000;
-  float: left;
+  /*border: 1px solid #000;*/
+  float: right;
   clear: right;
 }
 
 /*-------       NAVIGATION WRAPPER      ---------*/
-
-#navigation{
-  /*border: 1px solid #000;*/
-  width: 100%;
-  float: left;
-  clear: right;
-}
 
 #navigation .clearfix:after { 
    content: ".";
@@ -185,6 +181,13 @@ header .a_division_of{
    display: block; 
    height: 0; 
    clear: both;
+}
+
+#navigation_wrapper{
+  /*border: 1px solid #000;*/
+  width: 100%;
+  float: left;
+  clear: right;
 }
 
 .nav {
@@ -196,29 +199,28 @@ header .a_division_of{
 .nav ul {
   text-align: center;
   list-style: none;
-  width: 920px;
+  width: 100%;
   margin: 0 auto;
-  padding-right: 7px;
-  margin-left: 27px;
+  padding-right: 9px;
+  margin-left: 8px;
 }
 
 .nav li {
-  margin: 0 15px 0px 0;
+  margin: 0 10px 0px 0;
   padding: 0;
   list-style: none;
   display: inline-block;
 }
 
 .nav a {
-  /*width: 100px;*/
-  background: #000;
-  font: 1em Futura, "Arial Black", sans-serif;
-  color: #F2A90c;
+  background: #f80000;
+  margin: 0px;
   border: 1px solid #000;
-  border-radius: 5px 5px;
-  padding: 7px 12px 9px 12px;
-  text-decoration: none;
-  line-height: 100%;
+  border-radius: 5px;
+  padding: 10px 10px 13px 10px;
+  font: 1.125em "Racing Sans One", Nosifer, "Arial Black", sans-serif;
+  color: #fff;
+  font-variant: small-caps;
 }
 
 .nav a:hover{
@@ -237,92 +239,21 @@ header .a_division_of{
   border-radius: 5px 5px;
 }
 
-/*.navigation_wrapper{
-  border: 1px solid #000;
-  width: 100%;
-  margin-top: 25px;
-  clear: right;
-}
+/* ------------- GLOBAL STYLES -------------- */
 
-#navigation{
-  width: 100%;    
-  float: left;
-  margin: 0 0 1em 0;
-  padding: 0;
-  background-color: #f2f2f2;
-  border-bottom: 1px solid #ccc;
-}
-
-#navigation ul{
-  list-style: none;
-  width: 815px;
-  margin: 0 auto;
-  padding: 0;
-}
-
-#navigation li{
-  float: left;
-}
-
-#navigation li a{  
-  display: block;
-  padding: 8px 15px;
-  text-decoration: none;
-  font-weight: bold;
-  color: #069;
-  border-right: 1px solid #ccc;
-}
-
-#navigation li:first-child a{
-  border-left: 1px solid #ccc;
-}
-
-#navigation li a:hover{
-  color: #c00;
-  background-color: #fff;
-}
-
-
-#navigation{
-  width: 93.75%;
-  margin-top: 25px;
-  position: relative;
-  float: left;
-  clear: right;
-}
-
-nav ul li a{
-  font: small-caps bold 1.375%/1.375 Futura, "Aria Narrow" Impact, Arial, Tahome, sans-serif;
-}
-
-#navigation ul{
-  list-style-type:none;
-  margin:0;
-  padding:0;
-  overflow:hidden;
-}
-
-#navigation li{
-  text-align: center;
-  float:left;
-}
-
-#navigation a{
-  font: small-caps bold 1.375%/1.375 Futura, "Aria Narrow" Impact, Arial, Tahome, sans-serif;
-  display: block;
-  width: 125px;
-  background-color: #dddddd;
+#body_box_left,
+#lower_body_text_right p{
+  line-height: 1.25em;
   padding: 5px;
-  margin: 15px;
+  text-align: justify;
 }
 
-#navigation .clearfix{
-   content: "."; 
-   visibility: hidden; 
-   display: block; 
-   height: 0; 
-   clear: both;
-}*/
+#body_box_left
+#lower_body_text_right,
+p span{
+  font: 1em "Arial Black", Tahoma, "Trebuchet MS", sans-serif; 
+  font-weight: bold;
+}
 
 /*-------       CTA BANNER UPPER AREA      ---------*/
 
@@ -341,7 +272,11 @@ nav ul li a{
 }
 
 #body_boxes{
-  margin: 0px 10px 30px 10px;
+  width: 100%;
+  border: 1px solid #000;
+  border-radius: 3px;
+  padding: 20px 0;
+  margin-bottom: 30px;
   float: left;
   clear: right;
 }
@@ -349,10 +284,20 @@ nav ul li a{
 /*-------       BODY BOXES LEFT      ---------*/
 
 #body_box_left{
-  width: 460px;
-  margin-right: 20px;
+  width: 47.916666667%; /*460px*/
+  margin-right: 2.083333333%; /*20px*/
+  padding-left: 1.041666667%; /*10px*/
   float: left;
   clear: right;
+}
+
+#body_box_left ul{
+  padding: 10px 0;
+}
+
+.box_left_home_page li{
+  text-indent: 35px;
+  font: 1em/1.375 "Passion One", Arial, Tahoma, "Trebuchet MS", sans-serif;
 }
 
 #body_box_left h1{
@@ -367,102 +312,303 @@ nav ul li a{
 
 
 #body_box_right{
-  width: 460px;
+  width: 47.916666667%; /*460px*/
+  padding-right: 1.041666667%; /*10px*/
+  padding-top: 10px;
+  float: right;
+  clear: right;
+}
+
+
+.group_one_a{
+  width: 450px;
+  margin-bottom: 25px;
   float: left;
   clear: right;
 }
 
-#body_box_right h5{
-  font: 1.75em/1.875 "Passion One", Futura, Tahoma, sans-serif; 
-  line-height: 100%
+.group_one_b{
+  width: 450px;
+  margin-bottom: 25px;
+  float: left;
+  clear: right;
 }
 
-#body_box_right h6{
-  font: bold 1.125em/1.25 "Arial Black", "Arial Narrow", Tahoma, "Trebuchet MS", sans-serif;
-  line-height: 100%
+.group_one_c{
+  width: 450px;
+  margin-bottom: 25px;
+  float: left;
+  clear: right;
 }
 
-#featured_groupings{
+.group_one_d{
+  width: 450px;
+  margin-bottom: 25px;
+  float: left;
+  clear: right;
+}
 
+.group_one{
+  width: 175px;
+  display: block;
+  float: left;
+  clear: right;
+}
+
+.grp_hdr{
+  display: inline-block;
+  width: 175px;
+  font: 1.75em "Passion One", Futura, Tahoma, sans-serif;
+  line-height: 100%;
+  float: left;
+  clear: right;
+}
+
+.grp_bottom{
+  display: inline-block;
+  width: 125px;
+  font: 1.75em "Passion One", Futura, Tahoma, sans-serif;
+  line-height: 100%;
+  text-align: right;
+  padding-right: 14px;
+  float: left;
+  clear: right;
 }
 
 .and_body_box_right{
-  font: bold 1.125em/1.25 "Arial Black", "Arial Narrow", Tahoma, "Trebuchet MS", sans-serif;
+  display: inline-block;
+  width:50px;
+  font: bold 1.25em "Arial Black", "Arial Narrow", Tahoma, "Trebuchet MS", sans-serif;
+  line-height: 100%;
+  padding-top: 5px;
+  float: left;
+  clear: right;
+}
+
+#body_box_right img{
+  width: 270px;
+  text-align: right;
+  padding-bottom: 35px; /* remove when image inserted */
+  padding-top: 5px;
+  float: left;
+  clear: right;
+}
+
+#body_box_right a{
+  display: inline-block;
+  width: 270px;
+  font: .875em "Arial Narrow", Tahoma, "Trebuchet MS", sans-serif;
+  text-align: right;
+  float: right;
+  clear: right;
 }
 
 /*---------      LOWER BANNER OFF ROAD SPORTS VEHICLES    -------*/
 
+#banner .clearfix:after{ 
+  content: ".";
+  visibility: hidden; 
+  display: block; 
+  height: 0; 
+  clear: both;
+}
+
 #lower_banner{
   width: 100%;
   text-align: center;
-  margin-top: 25px;
+  font: 1.95em "Passion One", Tahoma, "Trebuchet MS", sans-serif;
+  line-height: 100%;
+  margin-bottom: 30px;
   float: left;
   clear: right;
-
 }
 
 /*---------      LOWER BODY COMPONENTS    -------*/
 
+#lower_body_wrapper .clearfix:after{ 
+  content: ".";
+  visibility: hidden; 
+  display: block; 
+  height: 0; 
+  clear: both;
+}
+
 #lower_body_wrapper{
-  margin: 0px 10px;
+  width: 100%;
+  margin-bottom: 35px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  padding: 20px 0;
   float: left;
+  clear: right;
 }
 
 #lower_body_image_left{
-  border: 1px solid #000;
-  width: 458px;
-  margin-right: 20px;
-  margin-top: 3px;
+  /*border: 1px solid #000;*/
+  width: 47.916666667%; /*460px*/
+  margin-right: 2.083333333%; /*20px*/
+  padding-left: 1.041666667%; /*10px*/
+  /*width: 458px;*/
+  /*margin-right: 20px;*/
+  /*margin-top: 3px;*/
   float: left;
   clear: right;
 }
 
-#lower_body_image_right{
-  width: 460px;
+#lower_body_text_right{
+  width: 47.916666667%; /*460px*/
+  padding-right: 1.041666667%; /*10px*/
+  float: right;
+  clear: right;
+}
+
+#lower_body_text_right h5{
+  display: inline-block;
+  width: 400px;
+  line-height: 100%;
+  text-indent: 25px;
+  padding-top: 10px;
+  text-align: justify;
   float: left;
   clear: right;
 }
 
-#lower_body_image_right h5{
-  line-height: 100%
+#lower_body_text_right #email_phone{
+  font: bold 1.05em Futura, Tahoma, "Trebuchet MS", sans-serif;        /* 16px / 18px */
+  line-height: 100%;
 }
 
-
+#pullquotes span{
+  display: inline-block;
+  width: 35px;
+  line-height: 100%;
+  font: 5em "Racing Sans Serif", "Passion One", Futura, Tahoma, sans-serif;
+  text-align: right;
+  margin-left: 10px;
+  float: left;
+  clear: right;
+}
 
 /*---------      FOOTER STYLING         --------------*/
 
-#footer_wrapper{
-    margin: 0px 10px;
+#footer_wrapper .clearfix{
+  content: ".";
+  visibility: hidden; 
+  display: block; 
+  height: 0; 
+  clear: both;
 }
 
-#footer{
+footer{
+  width: 100%;
+  border: 1px solid #000;
+  border-radius: 3px;
+  padding: 20px 10px;
+  float: left;
+  clear: right;
+}
 
+footer a{
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 #company_address{
-
+  display: inline-block;
+  /*padding-left: 10px;*/
+  margin-right: 10px;
+  float: left;
+  clear: right;
 }
 
-#a_division_of{
-
+#company_address h4{
+  font:bold 1.75em "Arial Black", Tahoma, "Trebuchet MS", sans-serif;
+  line-height: 100%;
 }
 
-.footer_images{
-
+footer .a_division_of{
+  display: inline-block;
+  font: .875em Arial, Tahoma, "Trebuchet MS", "DejuVu Sans", "Bitstream Vera Sans", sans-serif;         /* 14px / 20px / */
+  line-height: 100%;
+  padding-top: 50px;
+  text-align: right;
+  font-weight: bold;
+  float: left;
+  clear: right;
 }
+
+#footer_images{
+  display: inline-block;
+  width: 460px;
+  text-align: right;
+  margin-left: 10px;
+  /*padding-right: 10px;*/
+  padding-top: 50px;
+  float: right;
+  clear: right;
+}
+
+/*-------         SUB FOOTER PRIVACY STATEMENT --------*/
+
 
 .privacy_statement{
+  width: 100%;
+  margin-top: 45px;
+  padding: 0 8px;
+  float: left;
+  clear: right;
+}
 
+.privacy_statement p{
+  font: .75em/1.125 Arial, Tahoma, "Trebuchet MS", sans-serif;
+  color: #666;
+  text-align: justify;
+}
+
+.privacy_statement p span{
+  font-weight: bold;
+  font-color: #333;
 }
 
 /*---------      BOTTOM LINE STYLING    -------*/
 
 #bottom_line{
+  width: 100%;
+  border: 1px solid #666;
+  border-radius: 4px;
+  margin: 10px 0;
+  padding: 0 10px;
+  margin-bottom: 25px;
+  float: left;
+  clear: right;
 
 }
 
-#secondary_logo{
+#copy{
+  display: inline-block;
+  font: bold .875em/3 Arial, Tahoma, "Trebuchet MS", sans-serif;
+  color: #333;
+  float: left;
+  clear: right;
+}
 
+#secondary_logo{
+  width: 100px;
+  margin: 0 10px;
+  text-align: center;
+  float: left;
+  clear: right;
+
+}
+
+#signature{
+  display: inline-block;
+  font: bold .875em/3 Arial, Tahoma, "Trebuchet MS", sans-serif;
+  color: #333;
+  /*line-height: 100%;*/
+  text-align: right;
+  float: right;
+  clear: right;
 }
 
 
