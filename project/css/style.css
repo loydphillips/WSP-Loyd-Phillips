@@ -29,6 +29,7 @@ body {
   margin-bottom: 25px;
 }
 
+/*body header {background:#000 url('http://loydphillips.github.com/WSP-Loyd-Phillips/project/images/hdr.jpg') no-repeat center top;}*/
 body header {background:#000 url('http://loydphillips.github.com/WSP-Loyd-Phillips/project/images/hdr.jpg') no-repeat center top;}
 
 
@@ -62,11 +63,32 @@ p{
   font: .875em/1.25 Arial, Tahoma, "Trebuchet MS", sans-serif;         /* 14px / 20px / */
 }
 
-p + p { margin-top: 0.5em; }
+/* ------------- GLOBAL STYLES -------------- */
+
+#body_box_left,
+#lower_body_text_right p{
+  line-height: 1.25em;
+  padding: 5px;
+  text-align: justify;
+}
+
+#body_box_left
+#lower_body_text_right,
+p span{
+  font: 1em "Arial Black", Tahoma, "Trebuchet MS", sans-serif;
+  color: #b65008;
+  font-weight: bold;
+}
+
+p + p { margin-top: 0.7em; }
+
+a{
+  color: #555;
+}
 
 /*------      UNIVERSAL LINKS      ------*/
 
-.nav a:link {color:#f98000;}      unvisited link */
+/*.nav a:link {color:#f98000;}      unvisited link */
 /*.nav a:visited {color:#cccccc;}  /* visited link */
 /*.nav a:hover {color:#FF00FF;}  /* mouse over link */
 /*.nav a:active {color:#0000FF;}  /* selected link */ 
@@ -101,8 +123,8 @@ header a{
 #logo{
   width: 435px; /*470px*/
   /*margin-right: 4.255319149%; /*20px*/
-  padding-top: 33px; /*20px*/
-  padding-left: 5px;
+  padding-top: 36px; /*20px*/
+  padding-left: 6px;
   float: left;
   clear: right;
 }
@@ -284,22 +306,6 @@ header .a_division_of{
   border-radius: 5px 5px;
 }
 
-/* ------------- GLOBAL STYLES -------------- */
-
-#body_box_left,
-#lower_body_text_right p{
-  line-height: 1.25em;
-  padding: 5px;
-  text-align: justify;
-}
-
-#body_box_left
-#lower_body_text_right,
-p span{
-  font: 1em "Arial Black", Tahoma, "Trebuchet MS", sans-serif; 
-  font-weight: bold;
-}
-
 /*-------       CTA BANNER UPPER AREA      ---------*/
 
 /*#cta_banner{
@@ -335,6 +341,10 @@ p span{
   padding-left: 1.041666667%; /*10px*/
   float: left;
   clear: right;
+}
+
+#body_box_left h1{
+  font-size: 3.125em
 }
 
 #body_box_left ul{
@@ -513,17 +523,22 @@ p span{
 
 #lower_body_text_right h5{
   display: inline-block;
-  width: 400px;
-  line-height: 100%;
+  width: 410px;
+  font: 1.25em "Arial Black", Tahoma, "Trebuchet MS", sans-serif;
+  line-height: 110%;
   text-indent: 25px;
-  padding-top: 10px;
+  padding-top: 5px;
+  padding-right: 10px;
   text-align: justify;
   float: left;
   clear: right;
 }
 
 #lower_body_text_right #email_phone{
-  font: bold 1.05em Futura, Tahoma, "Trebuchet MS", sans-serif;        /* 16px / 18px */
+  font: 1.1em Futura, Tahoma, "Trebuchet MS", sans-serif;        /* 16px / 18px */
+  font-variant: small-caps;
+  letter-spacing: .01em;
+  text-align: center;
   line-height: 100%;
 }
 
@@ -531,9 +546,9 @@ p span{
   display: inline-block;
   width: 35px;
   line-height: 100%;
-  font: 5em "Racing Sans Serif", "Passion One", Futura, Tahoma, sans-serif;
+  font: 3.5em "Racing Sans Serif", "Passion One", Futura, Tahoma, sans-serif;
   text-align: right;
-  margin-left: 10px;
+  margin-left: 0px;
   float: left;
   clear: right;
 }
@@ -573,7 +588,7 @@ footer a{
 
 #company_address h4{
   font:bold 1.75em "Arial Black", Tahoma, "Trebuchet MS", sans-serif;
-  line-height: 100%;
+  line-height: 110%;
 }
 
 footer .a_division_of{
@@ -581,6 +596,7 @@ footer .a_division_of{
   font: .875em Arial, Tahoma, "Trebuchet MS", "DejuVu Sans", "Bitstream Vera Sans", sans-serif;         /* 14px / 20px / */
   line-height: 100%;
   padding-top: 50px;
+  padding-left: 10px;
   text-align: right;
   font-weight: bold;
   float: left;
