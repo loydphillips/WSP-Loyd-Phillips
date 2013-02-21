@@ -39,7 +39,7 @@ h1{
 }
 
 h2{
-  font: 2.5em/2.5  "Passion One", Futura, "Arial Narrow", Tahoma, Verdana, sans-serif;     /* 38px / 40px / */
+  font: 2.5em/2.5  "Arial Black", "Passion One", Futura, "Arial Narrow", Tahoma, Verdana, sans-serif;     /* 38px / 40px / */
 }
 
 h3{
@@ -86,7 +86,7 @@ header{
   height: 220px;
   color: #fff;
   margin-bottom: 35px; /*35px*/
-  padding: 0px 0px;
+  padding: 0px 10px;
   /*overflow: hidden;*/
   border-bottom: 1px solid #000;
   float: left;
@@ -99,17 +99,18 @@ header a{
 }
 
 #logo{
-  width: 44.791666667%; /*470px*/
-  background-size: 460px 190px;
+  width: 435px; /*470px*/
   /*margin-right: 4.255319149%; /*20px*/
-  padding-top: 43px; /*20px*/
-  padding-left: 20px;
+  padding-top: 33px; /*20px*/
+  padding-left: 5px;
   float: left;
   clear: right;
 }
 
 .header_text{
-  width: 48.958333333%; /*470px*/
+  width: 500px; /*470px*/
+  text-align: right;
+  padding-left: 30px;
   float: right;
   clear: right;
   padding-top: 27px;
@@ -350,6 +351,7 @@ p span{
 }
 
 #body_box_left h2{
+  font-size: 1.75em;
   line-height: 100%
 }
 
@@ -504,6 +506,7 @@ p span{
 #lower_body_text_right{
   width: 47.916666667%; /*460px*/
   padding-right: 1.041666667%; /*10px*/
+  color: #fff;
   float: right;
   clear: right;
 }
@@ -552,6 +555,7 @@ footer{
   padding: 20px 10px;
   float: left;
   clear: right;
+  color: #fff;
 }
 
 footer a{
