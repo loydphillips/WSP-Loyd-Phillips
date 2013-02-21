@@ -16,6 +16,25 @@ box-sizing: border-box; /* Opera/IE 8+ */
 
 /*-------      SITE DESIGN_HEADER    -------*/
 
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+}
 
 /*--------  BODY STYLING --------*/
 
