@@ -101,8 +101,9 @@ header a{
 #logo{
   width: 44.791666667%; /*470px*/
   background-size: 460px 190px;
-  margin-right: 4.255319149%; /*20px*/
+  /*margin-right: 4.255319149%; /*20px*/
   padding-top: 20px; /*20px*/
+  padding-left: 20px;
   float: left;
   clear: right;
 }
