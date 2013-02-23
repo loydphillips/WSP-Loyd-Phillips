@@ -2,236 +2,159 @@
 
 @import "inman_css_reset.css";
 
-/*---------  A RESPONSIVE CALCULATOR  --------------*/
-
-* {
-
--webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-
--moz-box-sizing: border-box; /* Firefox, other Gecko */
-
-box-sizing: border-box; /* Opera/IE 8+ */
-
-}
-
-/*-------      SITE DESIGN_HEADER    -------*/
-
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
-/* Styles */
-}
-
-/* Large screens ----------- */
-@media only screen 
-and (min-width : 1824px) {
-/* Styles */
-}
-
-/* iPads (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) {
-/* Styles */
-}
-
-/*--------  BODY STYLING --------*/
+/*------- Body Styles -------*/
 
 body {
-  background: #000;
-  font: 100% Arial, Tahoma, Verdana, "Arial Narrow", "Trebuchet MS", sans-serif;
+  background: #fff;
+  font: 100% #000 Arial, Tahoma, Verdana, "Arial Narrow", "Trebuchet MS", sans-serif;
   width: 960px;
   margin: 0 auto;
   padding: 0;
-  /*margin-top: 25px;*/
+  margin-top: 45px;
   margin-bottom: 25px;
-}
+ }
 
-/*body header {background:#000 url('http://loydphillips.github.com/WSP-Loyd-Phillips/project/images/hdr.jpg') no-repeat center top;}*/
-body header {background:#000 url('http://loydphillips.github.com/WSP-Loyd-Phillips/project/images/hdr.jpg') no-repeat center top;}
+ img,
+ embed,
+ object,
+ video {
+ 	width: 100%;
+ }
 
-
-/*-------           FONT STACKS AND TREATMENTS           -------*/
+ /*------- FONT TREATMENTS ------*/
 
 h1{
-  font: 2.75em/2.875 "Arial Black", Tahoma, "Trebuchet MS", sans-serif;    /* 44px / 46px / */ 
+  font: 2.75em/2.8125 "Arial Black", Tahoma, Arial, "Trebuchet MS", sans-serif;    /* 44px / 45px / */ 
 }
 
 h2{
-  font: 2.5em/2.5  "Arial Black", "Passion One", Futura, "Arial Narrow", Tahoma, Verdana, sans-serif;     /* 38px / 40px / */
+  font: 2.25em/2.3125  "Arial Black", Tahoma, Arial, "Trebuchet MS", sans-serif;     /* 36px / 37px / */
 }
 
 h3{
-  font: bold 2em/2.125 Arial, Tahome, Verdana, Sans-serif;       /* 32px / 34px / */
+  font: 2.125em/2.1875 "Passion One", "Arial Black", Tahoma, Verdana, Sans-serif;       /* 34px / 35px / */
 }
 
 h4{
-  font: 2em/2.125 "Passion One", Tahoma, "Trebuchet MS", sans-serif;    /* 26px / 30px / */
+  font: 1.375em/1.4375 "Archivo Black", "Arial Black", Tahoma, Arial, "Trebuchet MS", sans-serif;    /* 22px / 23px / */
 }
 
 h5{
-  font: 1.75em/1.875 "Passion One", Futura, Tahoma, sans-serif;          /* 20px / 22px / */
+  font: 1.25em/1.375 "Arial Black", "Passion One", "Arial Black", Tahoma, sans-serif;		/* 20px / 22px / */
 }
 
 h6{
-  font: bold 1.125em/1.25 "Arial Black", Tahoma, "Trebuchet MS", sans-serif;        /* 16px / 18px */
+  font: .875em/.9375 "Arial Black", Tahoma, "Trebuchet MS", sans-serif;		/* 14px / 15px */
 }
 
 p{
-  font: .875em/1.25 Arial, Tahoma, "Trebuchet MS", sans-serif;         /* 14px / 20px / */
+  font: .875em/1.125 Arial, Tahoma, "Trebuchet MS", sans-serif;		/* 14px / 16px / */
 }
 
-/* ------------- GLOBAL STYLES -------------- */
-
-#body_box_left,
-#lower_body_text_right p{
-  line-height: 1.25em;
-  padding: 5px;
-  text-align: justify;
-}
-
-#body_box_left
-#lower_body_text_right,
 p span{
-  font: 1em "Arial Black", Tahoma, "Trebuchet MS", sans-serif;
-  color: #b65008;
-  font-weight: bold;
+  font: 1em #666666 Futura, "Arial Black", Tahoma, Arial, sans-serif;
+  text-transform: uppercase;
 }
 
-p + p { margin-top: 0.7em; }
+p + p { margin-top: 1em; }
 
-a{
-  color: #555;
+#hunt-racing{
+	font: 1em/1.0625 "Racing Sans One", "Passion One", "Arial Black", Tahoma, Arial, "Trebuchet MS", sans-serif;	/* 17x / 18px / */
 }
 
-/*------      UNIVERSAL LINKS      ------*/
-
-/*.nav a:link {color:#f98000;}      unvisited link */
-/*.nav a:visited {color:#cccccc;}  /* visited link */
-/*.nav a:hover {color:#FF00FF;}  /* mouse over link */
-/*.nav a:active {color:#0000FF;}  /* selected link */ 
-
-/*-------     Header Style  --------*/
-
-#main_header .clearfix:after{ 
-   content: "."; 
-   visibility: hidden; 
-   display: block; 
-   height: 0; 
-   clear: both;
-}
+/*-------  HEADER TREATMENTS ------- */
 
 header{
-  width: 100%;
-  height: 220px;
-  color: #fff;
-  margin-bottom: 35px; /*35px*/
-  padding: 0px 10px;
-  /*overflow: hidden;*/
-  border-bottom: 1px solid #000;
-  float: left;
-  clear: right;
+	display: block;
+  	width: 100%;
+  	height: 265px;
+ 	color: #666;
+ 	margin-top: 15px;
+ 	/*margin: 0 15px; */
+ 	/*overflow: hidden;*/
+ 	float: left;
+  	clear: right;
 }
 
-header a{
-  text-decoration: underline;
-  font-weight: bold;
+.header-wrapper{
+	width: 100%;
+	height: 150px;
+	border: 1px solid #000;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+  	border-radius: 4px;
+	float: left;
+	clear: right;
 }
 
-#logo{
-  width: 435px; /*470px*/
-  /*margin-right: 4.255319149%; /*20px*/
-  padding-top: 36px; /*20px*/
-  padding-left: 6px;
-  float: left;
-  clear: right;
+.logo {
+	width: 445px; /* 450 px*/
+	margin-top: -37px; /* -25px */
+	margin-right: 15px; /* 20px */
+	padding: 10px 10px 0 10px; /* 10 10 0 10 */
+	float: left;
+	clear: right;
 }
 
-.header_text{
-  width: 500px; /*470px*/
-  text-align: right;
-  padding-left: 30px;
-  float: right;
-  clear: right;
-  padding-top: 27px;
+.header-text-one{
+	display: inline-block;
+	width: 248px;
+	font-weight: bold;
+	line-height: 100%;
+	word-spacing: -.1em;
+	text-transform: uppercase;
+	text-shadow: -2px 2px 4px #000000;
+  	filter: dropshadow(color=#000000, offx=-2, offy=2); 
+	margin-top: -22px;
+	float: left;
+	clear: right;
 }
 
-#vinyl{
-  display: inline-block;
-  width: 28.723404255%; /*155px*/
-  font: 2.75em "Arial Black", Tahoma, "Trebuchet MS", sans-serif;
-  line-height: 100%;
-  letter-spacing: .005em;
-  margin-right: 6.451612903%; /*10px*/
-  padding-top: 13px; /*13px*/
-  float: left;
-  clear: right;
+.header-text h6{
+	display: inline-block;
+	width: 218px;
+	text-align: right;
+	margin-top: 3px;
+	padding-right: 10px;
+	float:  left;
+	clear: right;
 }
 
-#small_caps_and{
-  display: inline-block;
-  width: 11.70212766%; /*75px*/
-  font: bold 1.125em "Arial Black", "Arial Narrow", Tahoma, "Trebuchet MS", sans-serif;        /* 16px / 18px */
-  line-height: 100%;
-  font-size: 1.875em; /*30px*/
-  letter-spacing: .0015em;
-  font-weight: bold;
-  padding-top: 26px; /*13px / 26*/
-  margin-right: 13.333333333%; /*10px*/
-  float: left;
-  clear: right;
+.header-text-two{
+	display: inline-block;
+	width: 473px;
+	line-height: 100%;
+	/*word-spacing: .1em;*/
+	text-transform: uppercase;
+	text-shadow: -2px 2px 4px #000000;
+  	filter: dropshadow(color=#000000, offx=-2, offy=2); 
+	margin-top: -5px;
+	float: left;
+	clear: right;
 }
 
-header .a_division_of{
-  display: inline-block;
-  width: 39.789521849%; /*187px*/
-  font: .875em Arial, Tahoma, "Trebuchet MS", "DejuVu Sans", "Bitstream Vera Sans", sans-serif;         /* 14px / 20px / */
-  line-height: 100%;
-  text-align: right;
-  font-weight: bold;
-  padding-top: 39px; /*26 / 39*/
-  padding-right: 3px;
-  float: left;
-  clear: right;
+.header-text-three{
+	display: inline-block;
+	width: 448px;
+	font-size: 3.5em;
+	font-family: "Titillium Web", "Racing Sans One", "Arial Black";
+	line-height: 100%;
+	text-transform: uppercase;
+	text-shadow: -2px -1px 4px #000000;
+  	filter: dropshadow(color=#000000, offx=-2, offy=-3); 
+	padding-left: 25px;
+	margin-right: 4px;
+	/*margin-top: 6px;*/
+	float: left;
+	clear: right;
 }
 
-#graphics_text{
-  display: block;
-  width: 100%; /*470px*/
-  font: 2.75em "Arial Black", Tahoma, "Trebuchet MS", sans-serif;    /* 44px / 46px / */ 
-  letter-spacing: .0015em;
-  line-height: 100%;
-  text-align: left;
-  margin-bottom: 5px;
-  float: left;
-  clear: right;
-}
-
-.tagline_image{
-  display: inline-block;
-  width: 48.958333333%; /*470px*/
-  height: 60px;
-  /*border: 1px solid #000;*/
-  float: right;
-  clear: right;
-}
-
-/*-------       NAVIGATION WRAPPER      ---------*/
-
-#navigation .clearfix:after { 
-   content: ".";
-   visibility: hidden; 
-   display: block; 
-   height: 0; 
-   clear: both;
-}
-
-#navigation_wrapper{
-  /*border: 1px solid #000;*/
-  width: 100%;
-  float: left;
-  clear: right;
+.nav-wrapper{
+	display:  block;
+	width: 100%;
+	margin-top: 75px;
+	float: left;
+	clear: right;
 }
 
 .nav {
@@ -246,7 +169,7 @@ header .a_division_of{
   width: 100%;
   margin: 0 auto;
   padding-right: 5px;
-  margin-left:3px;
+  margin-left: 10px;
 }
 
 .nav li {
@@ -317,7 +240,6 @@ header .a_division_of{
   font-variant: small-caps;
 }
 
-
 .nav .current a {
   background: #e8e8e8;
   color: #ff8000;
@@ -325,640 +247,104 @@ header .a_division_of{
   border-radius: 5px 5px;
 }
 
-/*-------       CTA BANNER UPPER AREA      ---------*/
+/*------- START MAIN BODY CONTENT -------*/
 
-/*#cta_banner{
-  width: 100%;
-  text-align: center*/
-
-/*-------       BODY BOXES LEFT AND RIGHT      ---------*/
-
-#body_box .clearfix:after{ 
-  content: ".";
-  visibility: hidden; 
-  display: block; 
-  height: 0; 
-  clear: both;
+.main-body h1, h2, h3{
+	line-height: 100%;
 }
 
-#body_boxes{
-  width: 100%;
-  border: 1px solid #fff;
-  color: #fff;
-  border-radius: 4px;
-  padding: 20px 0;
-  margin-bottom: 30px;
-  float: left;
-  clear: right;
+.main-left{
+	display: block;
+	width: 458px;
+	padding: 10px;
+	border: 1px solid #000;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+  	border-radius: 4px;
+  	margin-right: 20px;
+	float: left;
+	clear: right;
 }
 
-/*-------       BODY BOXES LEFT      ---------*/
-
-#body_box_left{
-  width: 47.916666667%; /*460px*/
-  margin-right: 2.083333333%; /*20px*/
-  padding-left: 1.041666667%; /*10px*/
-  float: left;
-  clear: right;
+.main-left hgroup{
+	display: inline-block;
+	width: 100%;
+	float: left;
+	clear: right;
 }
 
-#body_box_left h1{
-  font-size: 3.125em
+.main-left-text{
+	display: inline-block;
+	width: 100%;
+	margin-top: 30px;
+	text-align: justify;
+	float: left;
+	clear: right;
 }
 
-#body_box_left ul{
-  padding: 10px 0;
+.main-left ul{
+	margin: 10px 0;
 }
 
-.box_left_home_page li{
-  text-indent: 35px;
-  font: 1em/1.375 "Passion One", Arial, Tahoma, "Trebuchet MS", sans-serif;
+.main-left li{
+	text-indent: 40px;
+	font: 1.125em/1.375 "Passion One", Arial, Tahoma, "Trebuchet MS", sans-serif;
 }
 
-#body_box_left h1{
-  line-height: 100%
+.main-right{
+	display: block;
+	width: 458px;
+	float: left;
+	clear: right;
 }
 
-#body_box_left h2{
-  font-size: 1.75em;
-  line-height: 100%
+#page-banner{
+	display: block;
+	width: 3000px;
+	margin-left: -1020px;
+	background: #000;
+	margin-bottom: 20px;
+	padding: 20px 0 20px 0;
+ 	margin-top: 35px;
+	float: left;
+	clear: right;
 }
 
-/*-------       BODY BOXES RIGHT      ---------*/
-
-
-#body_box_right{
-  width: 47.916666667%; /*460px*/
-  padding-right: 1.041666667%; /*10px*/
-  padding-top: 10px;
-  float: right;
-  clear: right;
+#page-banner ul{
+	text-align: center;
+  	list-style: none;
+  	width: 100%;
+  	margin: 0 auto;
+ 	/*padding-right: 5px;
+ 	margin-left:3px;*/
 }
 
-
-.group_one_a{
-  width: 450px;
-  margin-bottom: 25px;
-  float: left;
-  clear: right;
+#page-banner li{
+	margin-right: 15px;
+  	padding-left: 15px;
+  	list-style: none;
+  	display: inline-block;
+    font: 1.25em Futura, Tahoma, "Trebuchet MS", sans-serif;
+  	color: #fff;
+  	text-transform: uppercase;
 }
 
-.group_one_b{
-  width: 450px;
-  margin-bottom: 25px;
-  float: left;
-  clear: right;
-}
-
-.group_one_c{
-  width: 450px;
-  margin-bottom: 25px;
-  float: left;
-  clear: right;
-}
-
-.group_one_d{
-  width: 450px;
-  margin-bottom: 25px;
-  float: left;
-  clear: right;
-}
-
-.group_one{
-  width: 175px;
-  display: block;
-  float: left;
-  clear: right;
-}
-
-.grp_hdr{
-  display: inline-block;
-  width: 175px;
-  font: 1.75em "Passion One", Futura, Tahoma, sans-serif;
-  line-height: 100%;
-  float: left;
-  clear: right;
-}
-
-.grp_bottom{
-  display: inline-block;
-  width: 125px;
-  font: 1.75em "Passion One", Futura, Tahoma, sans-serif;
-  line-height: 100%;
-  text-align: right;
-  padding-right: 14px;
-  float: left;
-  clear: right;
-}
-
-.and_body_box_right{
-  display: inline-block;
-  width:50px;
-  font: bold 1.25em "Arial Black", "Arial Narrow", Tahoma, "Trebuchet MS", sans-serif;
-  line-height: 100%;
-  padding-top: 5px;
-  float: left;
-  clear: right;
-}
-
-#body_box_right img{
-  width: 270px;
-  text-align: right;
-  padding-bottom: 35px; /* remove when image inserted */
-  padding-top: 5px;
-  float: left;
-  clear: right;
-}
-
-#body_box_right a{
-  display: inline-block;
-  width: 270px;
-  font: .875em "Arial Narrow", Tahoma, "Trebuchet MS", sans-serif;
-  text-align: right;
-  float: right;
-  clear: right;
-}
-
-/*---------      LOWER BANNER OFF ROAD SPORTS VEHICLES    -------*/
-
-#banner .clearfix:after{ 
-  content: ".";
-  visibility: hidden; 
-  display: block; 
-  height: 0; 
-  clear: both;
-}
-
-#lower_banner{
-  width: 100%;
-  text-align: center;
-  font: 1.95em "Passion One", Tahoma, "Trebuchet MS", sans-serif;
-  color: #666;
-  line-height: 100%;
-  margin-bottom: 30px;
-  float: left;
-  clear: right;
-}
-
-/*---------      LOWER BODY COMPONENTS    -------*/
-
-#lower_body_wrapper .clearfix:after{ 
-  content: ".";
-  visibility: hidden; 
-  display: block; 
-  height: 0; 
-  clear: both;
-}
-
-#lower_body_wrapper{
-  width: 100%;
-  margin-bottom: 35px;
-  border: 1px solid #fff;
-  border-radius: 4px;
-  padding: 20px 0;
-  float: left;
-  clear: right;
-}
-
-#lower_body_image_left{
-  /*border: 1px solid #000;*/
-  width: 47.916666667%; /*460px*/
-  margin-right: 2.083333333%; /*20px*/
-  padding-left: 1.041666667%; /*10px*/
-  /*width: 458px;*/
-  /*margin-right: 20px;*/
-  /*margin-top: 3px;*/
-  float: left;
-  clear: right;
-}
-
-#lower_body_text_right{
-  width: 47.916666667%; /*460px*/
-  padding-right: 1.041666667%; /*10px*/
-  color: #fff;
-  float: right;
-  clear: right;
-}
-
-#lower_body_text_right h5{
-  display: inline-block;
-  width: 410px;
-  font: 1.25em "Arial Black", Tahoma, "Trebuchet MS", sans-serif;
-  line-height: 110%;
-  text-indent: 25px;
-  padding-top: 5px;
-  padding-right: 10px;
-  text-align: justify;
-  float: left;
-  clear: right;
-}
-
-#lower_body_text_right #email_phone{
-  font: 1.1em Futura, Tahoma, "Trebuchet MS", sans-serif;        /* 16px / 18px */
-  font-variant: small-caps;
-  letter-spacing: .01em;
-  text-align: center;
-  line-height: 100%;
-}
-
-#pullquotes span{
-  display: inline-block;
-  width: 35px;
-  line-height: 100%;
-  font: 3.5em "Racing Sans Serif", "Passion One", Futura, Tahoma, sans-serif;
-  text-align: right;
-  margin-left: 0px;
-  float: left;
-  clear: right;
-}
-
-/*---------      FOOTER STYLING         --------------*/
-
-#footer_wrapper .clearfix{
-  content: ".";
-  visibility: hidden; 
-  display: block; 
-  height: 0; 
-  clear: both;
+.lower-content{
+	display: block;
+	width: 100%;
+	float: left;
+	clear: right;	
 }
 
 footer{
-  width: 100%;
-  border: 1px solid #fff;
-  border-radius: 4px;
-  padding: 20px 10px;
-  float: left;
-  clear: right;
-  color: #fff;
-}
-
-footer a{
-  text-decoration: underline;
-  font-weight: bold;
-}
-
-#company_address{
-  display: inline-block;
-  /*padding-left: 10px;*/
-  margin-right: 10px;
-  float: left;
-  clear: right;
-}
-
-#company_address h4{
-  font:bold 1.75em "Arial Black", Tahoma, "Trebuchet MS", sans-serif;
-  line-height: 110%;
-}
-
-footer .a_division_of{
-  display: inline-block;
-  font: .875em Arial, Tahoma, "Trebuchet MS", "DejuVu Sans", "Bitstream Vera Sans", sans-serif;         /* 14px / 20px / */
-  line-height: 100%;
-  padding-top: 50px;
-  padding-left: 10px;
-  text-align: right;
-  font-weight: bold;
-  float: left;
-  clear: right;
-}
-
-#footer_images{
-  display: inline-block;
-  width: 460px;
-  text-align: right;
-  margin-left: 10px;
-  /*padding-right: 10px;*/
-  padding-top: 50px;
-  float: right;
-  clear: right;
-}
-
-/*-------         SUB FOOTER PRIVACY STATEMENT --------*/
-
-
-.privacy_statement{
-  width: 100%;
-  margin-top: 45px;
-  padding: 0 8px;
-  float: left;
-  clear: right;
-}
-
-.privacy_statement p{
-  font: .75em/1.125 Arial, Tahoma, "Trebuchet MS", sans-serif;
-  color: #666;
-  text-align: justify;
-}
-
-.privacy_statement p span{
-  font-weight: bold;
-  font-color: #333;
-}
-
-/*---------      BOTTOM LINE STYLING    -------*/
-
-#bottom_line{
-  width: 100%;
-  border: 1px solid #666;
-  border-radius: 4px;
-  margin: 10px 0;
-  padding: 0 10px;
-  margin-bottom: 25px;
-  float: left;
-  clear: right;
-
-}
-
-#copy{
-  display: inline-block;
-  font: bold .875em/3 Arial, Tahoma, "Trebuchet MS", sans-serif;
-  color: #333;
-  float: left;
-  clear: right;
-}
-
-#secondary_logo{
-  width: 100px;
-  margin: 0 10px;
-  text-align: center;
-  float: left;
-  clear: right;
-
-}
-
-#signature{
-  display: inline-block;
-  font: bold .875em/3 Arial, Tahoma, "Trebuchet MS", sans-serif;
-  color: #333;
-  /*line-height: 100%;*/
-  text-align: right;
-  float: right;
-  clear: right;
+	width: 100%;
+	float: left;
+	clear: right;
 }
 
 
 
-/*#header_text, h1{
-  font-size: 89.58333333%;
-  line-height: .25%;
-  /*letter-spacing: .0015em;
-}
 
-#digital{
-  float: right;
-}
+ 
 
-#and_lower_case{
-  font: bold 1.5em/1.65 "Arial Black", Futura, "Arial Narrow", Arial, Helvetica, sans-serif;
-  padding-top: 4.4%;
-  padding-left: 2.17391304%;
-  clear: left;
-}
-
-#a_division{
-  font-size: 11px; 
-  font-family: Futura, "Arial Narrow" Arial;
-  letter-spacing: .005em;
-  padding-top: 30px;
-  padding-right: 3px;
-  float: right;
-}
-
-header img,
-#tagline{
-  width: 46.875%;
-  height: 40px;
-  clear: left;
-}
-
-nav{
-  padding: 0px 10px;
-  margin-bottom: 30px;
-}
-
-#body_wrapper{
-  width: 100%;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-#banner_top{
-  max-width: 100%;
-  padding: 10px 0px;
-  border-top: 1px solid #000;
-  border-bottom: 1px solid #000; 
-  background-color: #666;
-  margin-bottom: 30px;
-  text-align: center;
-}
-
-#banner_bottom{
-  max-width: 100%;
-  margin-bottom: 30px;
-  border-top: 1px solid #000;
-  border-bottom: 1px solid #000; 
-  background-color: #666;
-  padding: 15px 15px;
-  color: #fff;
-  text-align: center;
-  clear: both;
-}
-
--------*/
-
-/*---- #banner_bottom2{
-  max-width: 100%;
-  height: 30px;
-  border-top: 1px solid #000;
-  border-bottom: 1px solid #000;
-  background-color: #666;
-  padding: 15px 15px;
-  color: #fff;
-  text-align: center;
-  clear: both;
-} ------*/
-
-/*------- INDEX
-.body_box_left{
-  background-color: #999999;
-  max-width: 440px;
-  padding: 20px 10px;
-  margin-right: 20px;
-  margin-bottom: 30px;
-  float: left;
-  clear: left;
-}
-
-.body_box_right{
-  background-color: #999999;
-  width: 450px;
-  /*-- padding: 20px 10px; 
-  margin-bottom: 30px;
-  margin-right: 10px;
-  float: left;
-  clear: right;
-}
-
-.body_box_right h5{
-  background-color: #e8e8e8;
-  width: 200px;
-  height: 100px;
-  padding: 10px 0px;
-  margin-bottom: 30px;
-  float: left;
-  clear: left;
-}
-
-#custom_graphics{
-  background-color: #333;
-  width: 240px;
-  height: 75px;
-  margin-bottom: 10px; 
-  margin-left: 10px;
-  float: left;
-}
-
-.body_box_right a{
-  width: 240px;
-  margin-bottom: 20px;
-  margin-left: 10px;
-  float: left;
-  clear: right;
-}
-
-/*--------- GRAPHICS / WRAPS 
-
-.body_rt_top_image{
-  width: 450px;
-  height: 200px;
-  float: right;
-  clear: right;
-}
-
-.body_rt_bottom_image{
-  width: 450px;
-  height: 200px;
-  float: left;
-  clear: both;
-}
-
-/*---- CONTACT PAGE 
-
-.body_box_right_contact{
-  background-color: #888888;
-  margin-left: 10px;
-  float: left;
-}
-
-.columns{
-  -ms-column-count: 2;
-  -moz-column-count: 2;
-  -web-column-count: 2;
-  -o-column-count: 2;
-  -khtml-column-count: 2;
-  column-count: 2;  
-}
-
-/*----- LOWER BODY STYLE 
-
-#lower_body_content{
-  width: 100%;
-  padding: 0px 10px;
-  margin-bottom: 30px;
-}
-
-#lower_body_content img{
-  width: 450px;
-  height: 215px;
-  background-color: #777;
-  margin-right: 20px;
-  margin-bottom: 30px;
-  float: left;
-  clear: left;
-}
-
-#lower_body_content p{
-  width: 450px;
-  float: left;
-}
-
-#lower_body_content h5{
-  width: 450px;
-  margin-bottom: 30px;
-  float: left;
-}
-
-/*-------- FOOTER STYLE   
-
-footer{
-  max-width: 100%;
-  background-color: #333;
-  height: 200px;
-  border-top: 1px solid #000;
-  padding: 10px;
-  color: #fff;
-  clear: left;
-}
-
-#company_address{
-  float: left;
-  clear: left;
-}
-
-#a_division_of{
-  padding-top: 60px;
-  margin-left: 20px;
-  float: left;
-}
-
-#footer_images{
-  margin-left: 20px;
-  margin-bottom: 20px;
-  float: left;
-  clear: right;
-}
-
-footer p{
-  width: 100%;
-  float: right;
-  clear: right;
-  font-size: 12px;
-}
-
-/*-------- CONTACT PAGE FOOTER 
-
-#contact_footer{
-  max-width: 100%;
-  margin-top: 30px;
-  background-color: #333;
-  max-height: 50px;
-  border-top: 1px solid #000;
-  padding: 10px;
-  color: #fff;
-  font-size: 12px;
-  clear: left;
-}
-
-/*-------- SUB FOOTER STYLE 
-
-#sub_footer{
-  max-width: 100%;
-  background-color: #666;
-  height: 25px;
-  padding: 7px 10px 0px 10px;
-  color: #fff;
-  font-size: 12px;
-}
-
-#sub_footer p{
-  float: left;
-  clear: right;
-}
-
-#sub_footer h5{
-  font-size: 14px;
-  float: left;
-} -------*/ 
-
-/*--------   MEDIA QUERIES      -------------------*/
 
