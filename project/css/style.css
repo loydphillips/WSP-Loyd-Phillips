@@ -82,13 +82,16 @@ header{
 	height: 150px;
   /*padding-left: 1.04384134%; 10px*
   padding-right: 1.04384134%;*/
-	border: 1px solid #cccccc;
+	border: 1px solid #fff;
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
   border-radius: 4px;
 	float: left;
 	clear: right;
 }
+
+.header-wrapper {background:#000 url('http://loydphillips.github.com/WSP-Loyd-Phillips/activities/image_elements/hdr-bg.jpg') no-repeat center top;}
+
 
 .logo {
   /*display: block;*/
@@ -136,7 +139,7 @@ header{
 }
 
 .header-text-three{
-	width: 50.9394572%;
+	width: 50.9394572%; /*488 / 958*/
 	font-size: 3.5em;
 	font-family: "Titillium Web", "Racing Sans One", "Arial Black";
   color: #b70057;
