@@ -6,7 +6,7 @@
 
 body {
   background: #000;
-  font: 100% #000 Arial, Tahoma, Verdana, "Arial Narrow", "Trebuchet MS", sans-serif;
+  font: 100% Arial, Tahoma, Verdana, "Arial Narrow", "Trebuchet MS", sans-serif;
   width: 960px;
   margin: 0 auto;
   padding: 0;
@@ -52,7 +52,7 @@ p{
 }
 
 p span{
-  font: 1em #666666 Futura, "Arial Black", Tahoma, Arial, sans-serif;
+  font: 1em Futura, "Arial Black", Tahoma, Arial, sans-serif;
   text-transform: uppercase;
 }
 
@@ -155,9 +155,6 @@ header{
 	text-transform: uppercase;
 	text-shadow: -2px -1px 4px #000000;
   filter: dropshadow(color=#000000, offx=-2, offy=-3); 
-	/*padding-left: 25px;
-	margin-right: 0px;*/
-	/*margin-top: 6px;*/
 	float: left;
 	clear: right;
 }
@@ -173,7 +170,6 @@ header{
 .nav {
   position: relative;
   margin-top: 0px;
-  /*margin-bottom: 45px;*/
 }
 
 .nav ul {
@@ -195,9 +191,7 @@ header{
   border: 1px solid #000;
   border-radius: 5px;
   padding: 10px 5px;
-  font: bold 1em Futura, Nosifer, "Arial Black", sans-serif;
-  /*text-shadow: -2px -2px 1px #000000;
-  filter: dropshadow(color=#000000, offx=-2, offy=-2); */
+  font: 1em Futura, Nosifer, "Arial Black", sans-serif;
   line-height: 100%;
   color: #000;
   font-variant: small-caps;
@@ -221,23 +215,30 @@ header{
   border: 1px solid #000;
 }
 
-.nav .hover a{
-  background: #000;
-  margin: 0px;
-  border: 1px solid #fff;
-  border-radius: 5px;
-  padding: 8px 5px 10px 5px;
-  font: bold 1em Futura, Nosifer, "Arial Black", sans-serif;
+.nav a:visited{
+  padding: 10px 5px;
+  font: .875em "Arial Black", Futura, "Arial Black", Tahoma, Arial, sans-serif;
   line-height: 100%;
-  color: #fff;
+  color: #000;
   font-variant: small-caps;
 }
 
-.nav .current a {
-  background: #e8e8e8;
+.nav a:hover{
+  background: #000;
+  padding: 10px 5px;
+  font: 1em Futura, Nosifer, "Arial Black", sans-serif;
+  line-height: 100%;
+  color: #ccc;
+  font-variant: small-caps;
+}
+
+.nav a:active{
+  background: #000;
+  padding: 10px 5px;
+  font: .875em "Arial Black", Futura, "Arial Black", Tahoma, Arial, sans-serif;
+  line-height: 100%;
   color: #ff8000;
-  border: 1px solid #666;
-  border-radius: 5px 5px;
+  font-variant: small-caps;
 }
 
 /*------- START MAIN BODY CONTENT -------*/
@@ -316,7 +317,7 @@ color: #9fbc10;
   width: 100%;
 	background: #ccc;
 	margin-bottom: 20px;
-	padding: 20px 0 20px 0;
+	padding: 15px 0 15px 0;
  	margin-top: 35px;
 	float: left;
 	clear: right;
@@ -329,8 +330,8 @@ color: #9fbc10;
 
 #page-banner li{
     width: 100%;
-	  margin-right: 15px;
-  	padding-left: 15px;
+	  margin-right: 10px;
+  	padding-left: 10px;
   	display: inline;
     font: bold 1.25em Futura, Tahoma, "Trebuchet MS", sans-serif;
   	color: #ee4206;
