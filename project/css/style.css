@@ -5,7 +5,7 @@
 /*------- Body Styles -------*/
 
 body {
-  background: #fff;
+  background: #000;
   font: 100% #000 Arial, Tahoma, Verdana, "Arial Narrow", "Trebuchet MS", sans-serif;
   width: 960px;
   margin: 0 auto;
@@ -60,14 +60,21 @@ p + p { margin-top: 1em; }
 
 #hunt-racing{
 	font: 1em/1.0625 "Racing Sans One", "Passion One", "Arial Black", Tahoma, Arial, "Trebuchet MS", sans-serif;	/* 17x / 18px / */
+  color: #f69121;
 }
+
+#hunt-racing a{
+  color: #9fbc10;
+  text-decoration: underline;
+}
+
 
 /*-------  HEADER TREATMENTS ------- */
 
 header{
   	width: 100%; /*960*/
   	height: 265px;
-    background: #000;
+    /*background: #000;*/
    	color: #fff;
    	margin-top: 25px;
    	/*margin: 0 15px; */
@@ -158,7 +165,7 @@ header{
 .nav-wrapper{
 	display:  block;
 	width: 100%;
-	margin-top: 75px;
+	margin-top: 45px;
 	float: left;
 	clear: right;
 }
@@ -166,7 +173,7 @@ header{
 .nav {
   position: relative;
   margin-top: 0px;
-  margin-bottom: 45px;
+  /*margin-bottom: 45px;*/
 }
 
 .nav ul {
@@ -174,13 +181,10 @@ header{
   list-style: none;
   width: 100%;
   margin: 0 auto;
-  padding-right: 5px;
-  margin-left: 10px;
 }
 
 .nav li {
-  margin: 0 10px 0px 0;
-  padding: 0;
+  margin: 5px 5px;
   list-style: none;
   display: inline-block;
 }
@@ -188,14 +192,14 @@ header{
 .nav a {
   background: #d64100;
   margin: 0px;
-  border: 1px solid #fff;
+  border: 1px solid #000;
   border-radius: 5px;
-  padding: 8px 5px 10px 5px;
+  padding: 10px 5px;
   font: bold 1em Futura, Nosifer, "Arial Black", sans-serif;
-  text-shadow: -2px -2px 1px #000000;
-  filter: dropshadow(color=#000000, offx=-2, offy=-2); 
+  /*text-shadow: -2px -2px 1px #000000;
+  filter: dropshadow(color=#000000, offx=-2, offy=-2); */
   line-height: 100%;
-  color: #fff;
+  color: #000;
   font-variant: small-caps;
   background: -moz-linear-gradient(
     top,
@@ -203,35 +207,18 @@ header{
     #b65008 43%,
     #962e05 59%,
     #851d03 62%,
-    #613d00);
+    #da5200);
   background: -webkit-gradient(
     linear, left top, left bottom, 
     from(#e3750e),
     color-stop(0.43, #b65008),
     color-stop(0.59, #962e05),
-    color-stop(0.62, #851d03),
+    color-stop(0.62, #da5200),
     to(#613d00));
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   border-radius: 10px;
-  border: 1px solid #ffffff;
-  -moz-box-shadow:
-    0px 1px 3px rgba(000,000,000,0.5),
-    inset 5px 5px 7px rgba(224,134,0,0.5);
-  -webkit-box-shadow:
-    0px 1px 3px rgba(000,000,000,0.5),
-    inset 5px 5px 7px rgba(224,134,0,0.5);
-  box-shadow:
-    0px 1px 3px rgba(000,000,000,0.5),
-    inset 5px 5px 7px rgba(224,134,0,0.5);
-  text-shadow:
-    0px -1px 3px rgba(255,255,255,0.8),
-    0px 1px 0px rgba(255,255,255,0.3);
-}
-
-.nav a{
-  text-shadow: -1px 2px 1px #000000;
-  filter: dropshadow(color=#000000, offx=-2, offy=2); 
+  border: 1px solid #000;
 }
 
 .nav .hover a{
@@ -261,13 +248,14 @@ header{
 
 .main-left{
 	display: block;
-	width: 458px;
+	width: 446px;
+  color: #fff;
 	padding: 10px;
-	border: 1px solid #000;
+	border: 1px solid #fff;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
-  	border-radius: 4px;
-  	margin-right: 20px;
+  border-radius: 4px;
+  margin-right: 20px;
 	float: left;
 	clear: right;
 }
@@ -276,6 +264,11 @@ header{
 	width: 100%;
 	float: left;
 	clear: right;
+}
+
+.main-left p span{
+  font: .875em "Arial Black", Futura, Arial, sans-serif;
+  color: #fd9425;
 }
 
 .main-left-text{
@@ -291,22 +284,28 @@ header{
 }
 
 .main-left li{
-	text-indent: 40px;
+	text-indent: 135px;
 	font: 1.125em/1.375 "Passion One", Arial, Tahoma, "Trebuchet MS", sans-serif;
 }
 
 .main-right{
 	display: block;
-  border: 1px solid #000;
-	width: 458px;
-	float: left;
-	clear: right;
+  width: 470px;
+  float: left;
+  clear: right;
+}
+
+.main-right #kawasaki: {background:#000 url('http://loydphillips.github.com/WSP-Loyd-Phillips/activities/image_elements/hdr-bg.jpg') no-repeat center top;}
+
+
+.main-right a{
+color: #9fbc10;
 }
 
 #page-banner{
 	display: block;
   width: 100%;
-	background: #000;
+	background: #ccc;
 	margin-bottom: 20px;
 	padding: 20px 0 20px 0;
  	margin-top: 35px;
@@ -324,8 +323,10 @@ header{
 	  margin-right: 15px;
   	padding-left: 15px;
   	display: inline;
-    font: 1.25em Futura, Tahoma, "Trebuchet MS", sans-serif;
-  	color: #fff;
+    font: bold 1.25em Futura, Tahoma, "Trebuchet MS", sans-serif;
+  	color: #ee4206;
+    text-shadow: 1px 2px 1px #000000;
+    filter: dropshadow(color=#000000, offx= 0, offy=-3); 
   	text-transform: uppercase;
 }
 
