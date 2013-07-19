@@ -100,16 +100,16 @@ header{
 .header-wrapper {background:#000 url('http://loydphillips.github.com/WSP-Loyd-Phillips/activities/image_elements/hdr-bg.jpg') no-repeat center top;}
 
 
-/*.logo {
+.logo {
   /*display: block;*/
-	/*width: 48.01670146%; /* 460px / 958px*/
-	/*margin-top: -45px; /* -25px */
-	/*margin-right: .52192067%; /*5px / 958px */
-  /*margin-left: .52192067%; /*5px / 958px */
-	/*padding: 10px 10px 0 10px; /* 10 10 0 10 
+	width: 48.01670146%; 460px / 958px
+	margin-top: -45px; -25px
+	margin-right: .52192067%; 5px / 958px
+  margin-left: .52192067%; 5px / 958px 
+	padding: 10px 10px 0 10px; 10 10 0 10 
 	float: left;
 	clear: right;
-}*/
+}
 
 #replace{
   display: block;
